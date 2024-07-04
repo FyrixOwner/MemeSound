@@ -21,8 +21,8 @@ module.exports = (() => {
 			}],
 			version: "1.0.0",
 			description: "Plays Memetastic sounds when certain words are sent in chat. This plugin was heavily inspired by Metalloriff's bruh plugin so please go check him out!",
-			github: "https://github.com/Lonk12/BetterDiscordPlugins/blob/main/MemeSounds/MemeSounds.plugin.js",
-			github_raw: "https://raw.githubusercontent.com/Lonk12/BetterDiscordPlugins/main/MemeSounds/MemeSounds.plugin.js"
+			github: "https://github.com/FyrixOwner/MemeSound/blob/main/MemeSounds/MemeSounds.plugin.js",
+			github_raw: "https://raw.githubusercontent.com/FyrixOwner/main/MemeSounds/MemeSounds.plugin.js"
 		},
 		/* Settings */
 		defaultConfig: [{
@@ -50,6 +50,7 @@ module.exports = (() => {
 			shown: false,
 			settings: [
 				{ id: "bazinga", name: "Bazinga", type: "switch", value: true },
+				{ id: "ryoikitenkai", name: "Ryoiki Tenkai", type: "switch", value: true },
 				{ id: "bruh", name: "Bruh", type: "switch", value: true },
 				{ id: "cheeseburger", name: "Chezburger", type: "switch", value: true },
 				{ id: "hamburger", name: "Hamburger", type: "switch", value: true },
